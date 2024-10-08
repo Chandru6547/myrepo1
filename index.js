@@ -8,6 +8,10 @@ app.get('/get', (req, res) => {
     res.send("Success");
 });
 
+app.post('/post', (req, res) => {
+    res.send("Insert api successfully fetched");
+});
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);

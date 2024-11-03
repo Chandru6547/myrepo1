@@ -5,6 +5,7 @@ const port = 3000;
 // Define a simple GET route
 app.get('/get', (req, res) => {
     console.log("Success");
+    console.log("dfuhbveriuvneijrhnvef);
     res.send("Success");
 });
 
